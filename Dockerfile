@@ -10,4 +10,4 @@ RUN npm i
 
 RUN npx prisma generate
 
-CMD ["npm","run", "dev", "&&","npm","run", "prisma:migrate"]
+CMD ["npm","run", "dev"]
