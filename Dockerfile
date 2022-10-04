@@ -10,4 +10,4 @@ RUN npm i
 
 RUN npx prisma generate
 
-CMD ["ts-node", "./src/server.ts"]
+CMD ["npm","run", "dev", "&&","npm","run", "prisma:migrate"]
